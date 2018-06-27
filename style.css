@@ -13,7 +13,7 @@ body {
     font-weight: 400;
     line-height: 1.7;
     color: #555;
-    background-color: #1b51da;
+    background-image: linear-gradient(to right, #1842ad, #2f6aff);
     clip-path: polygon(0 0, 100% 0, 100% 80%, 60% 93% ,0 100%);
 }
 
@@ -86,11 +86,9 @@ body {
     resize: none;
 }
 
-textarea::placeholder {
+textarea::placeholder,
+textarea::-moz-placeholder {
     color: rgba(80, 123, 233, .6);
-    position: relative;
-    top: 1rem;
-    left: .5rem;
     font-style: italic;
 }
 
